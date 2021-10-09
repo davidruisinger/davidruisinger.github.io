@@ -2,11 +2,9 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
-    'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
   ],
   parser: '@typescript-eslint/parser',
-
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -17,7 +15,6 @@ module.exports = {
   plugins: ['react', 'simple-import-sort', 'sort-destructure-keys'],
   root: true,
   rules: {
-    '@typescript-eslint/ban-ts-ignore': 'off',
     '@typescript-eslint/explicit-function-return-type': [
       'error',
       {
@@ -39,7 +36,8 @@ module.exports = {
       },
     ],
     'react/prop-types': 'off',
-    'simple-import-sort/sort': 'error',
+    'simple-import-sort/exports': 'error',
+    'simple-import-sort/imports': 'error',
     'sort-destructure-keys/sort-destructure-keys': 'error',
     'sort-keys': [
       'error',

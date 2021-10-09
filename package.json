@@ -1,5 +1,5 @@
 {
-  "name": "cv",
+  "name": "davidruisinger.github.io",
   "author": "David Ruisinger",
   "license": "ISC",
   "version": "1.0.0",
@@ -10,27 +10,27 @@
     "lint-fix": "yarn lint --fix"
   },
   "dependencies": {
-    "next": "^9.4.4",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-is": "^16.8",
-    "styled-components": "^5.1.1"
+    "@types/styled-components": "^5.1.15",
+    "next": "^11.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-is": "^17.0.2",
+    "styled-components": "^5.3.1"
   },
   "devDependencies": {
-    "@types/node": "^14.0.14",
-    "@types/react": "^16.9.41",
-    "@types/react-dom": "^16.9.8",
-    "@types/styled-components": "^5.1.0",
-    "@typescript-eslint/eslint-plugin": "^3.4.0",
-    "@typescript-eslint/parser": "^3.4.0",
-    "babel-plugin-styled-components": "^1.10.7",
-    "eslint": "^7.3.1",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-react": "^7.20.0",
-    "eslint-plugin-simple-import-sort": "^5.0.3",
+    "@types/node": "^16.10.3",
+    "@types/react": "^17.0.27",
+    "@types/react-dom": "^17.0.9",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "babel-plugin-styled-components": "^1.13.2",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-sort-destructure-keys": "^1.3.5",
-    "prettier": "^2.0.5",
-    "typescript": "^3.9.5"
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.3"
   }
 }

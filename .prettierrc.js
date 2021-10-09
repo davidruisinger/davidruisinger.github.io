@@ -1,5 +1,5 @@
 module.exports = {
-  jsxBracketSameLine: false,
+  bracketSameLine: false,
   parser: 'typescript',
   printWidth: 80,
   semi: false,

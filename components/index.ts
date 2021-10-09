@@ -1,5 +1,5 @@
-export * from './avatar'
 export * from './aspect-ratio-box'
+export * from './avatar'
 export * from './content-container'
 export * from './gradient-background'
 export * from './gradient-headline'
